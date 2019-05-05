@@ -1,0 +1,13 @@
+
+public class Sample {
+	public static void main(String[] arguments){
+		 // Program execution begins here
+		Double earthGravity=-9.8;
+		Double initialPosition=0.0;
+		Double fallingTime=10.0;
+		Double initialVelocity=2.0;
+		Double finalPosition=(0.5*earthGravity*fallingTime*fallingTime)+(initialVelocity*fallingTime)+initialPosition;
+		System.out.println("The Final Position is for "+fallingTime+"s is "+finalPosition+"m");
+ 	 } 
+
+}

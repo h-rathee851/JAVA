@@ -1,0 +1,11 @@
+
+public class Sample {
+	public static void main(String[] arguments){
+		 // Program execution begins here
+		String foo="Hello";
+		System.out.println(foo);
+		foo="you fool";
+		System.out.println(foo);
+		 } 
+
+}

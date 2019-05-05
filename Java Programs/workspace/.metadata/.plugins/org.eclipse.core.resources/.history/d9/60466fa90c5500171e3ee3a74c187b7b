@@ -1,0 +1,17 @@
+
+public class Sample {
+	public static void square(int a){
+		System.out.println(a*a);
+	}
+	public static void multiply(double a,double b){
+		System.out.println(a*b);
+	}
+	public static void main(String[] arguments){
+		 // Program execution begins here
+		square(5);
+		multiply(2,3);
+		
+		
+ 	 } 
+
+}
